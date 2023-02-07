@@ -1,5 +1,7 @@
-from to_do import TODO
-
 
 def task3():
-    return TODO("Erase this line and write your solution")
+    return """
+    INPUT base, height
+    CALCULATE area = (base * height) / 2
+    OUTPUT "The area of the triangle is: " + area
+    """
