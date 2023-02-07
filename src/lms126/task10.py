@@ -1,7 +1,8 @@
 
 def task10():
     return """
-    INPUT email, password
+    INPUT email 
+    INPUT password
     IF email already exist in the database
     OUTPUT "Email already exists. Please use another email."
     ELSE
