@@ -1,7 +1,9 @@
 
 def task9():
     return """"
-    INPUT account_number, password, withdrawal_amount
+    INPUT account_number,
+    INPUT password
+    INPUT withdrawal_amount
     IF account_number AND password NOT FOUND in the database
     OUTPUT "Invalid account number or password."
     ELSE
