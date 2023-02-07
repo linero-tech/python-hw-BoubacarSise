@@ -1,7 +1,8 @@
 
 def task4():
     return """
-    INPUT X, Y
+    INPUT X 
+    INPUT Y
     IF X > Y
     OUTPUT X
     ELSE
