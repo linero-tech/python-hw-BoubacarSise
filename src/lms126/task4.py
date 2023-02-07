@@ -1,5 +1,9 @@
-from to_do import TODO
-
 
 def task4():
-    return TODO("Erase this line and write your solution")
+    return """
+    INPUT X, Y
+    IF X > Y
+    OUTPUT X
+    ELSE
+    OUTPUT Y
+    """
