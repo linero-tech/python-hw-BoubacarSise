@@ -1,5 +1,7 @@
-from to_do import TODO
-
 
 def task7():
-    return TODO("Erase this line and write your solution")
+    return """
+    FOR i = 1 TO 100
+    IF i * 2 = 0
+    OUTPUT i
+    """
